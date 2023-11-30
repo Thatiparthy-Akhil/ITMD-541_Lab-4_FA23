@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise Sunset Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <!-- Header section -->
+  <div class="container">
+    <h2>SKY CANVAS</h2>
+    <h3>Unveiling the Art of Day and Night</h3>
+  </div>
+    <!-- search section -->
+    <div class="element">
+    <div id="searchSection">
+      <input type="text" id="locationInput" placeholder="  Enter location ">
+      <button id="searchLocation">Search</button>
+      <br>
+      <button id="getCurrentLocation">Use Current Location</button>
+    </div>
+  </div>
+
+   <!-- Dashboard section -->
+   <!-- Displaying the SunRise SunSet details -->
+    <div id="dashboard" class="hidden">
+    </div>
+
+    <!-- Error section -->
+    <!-- displaying error pop up -->
+    <div id="errorSection" class="hidden"> 
+    </div>
+
+    <!-- footer section -->
+    <!-- crdits to the API -->
+    <div id="credits">
+      Credits: Powered by <a href="https://sunrisesunset.io/" target="_blank">SunriseSunset.io</a>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

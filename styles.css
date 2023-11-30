@@ -1,0 +1,155 @@
+
+body {
+ 
+  background-image: url('sun_Rise.jpg!d');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* header */
+.container {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  background-color: transparent; 
+  color: rgb(7, 7, 7); 
+  top: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 5px 0;
+  font-size: 1.5em;
+}
+
+strong {
+  color: black; 
+}
+
+
+/* Search */
+
+
+.element {
+  text-align: center;
+  background-color: transparent;
+  margin: 10px auto;
+
+}
+
+#searchSection {
+  display: inline-block;
+  text-align: left;
+  background-color: transparent;
+  padding: 20px;
+}
+
+#locationInput {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#searchLocation,
+#getCurrentLocation {
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #000000;
+  background: linear-gradient(to bottom, #ff4500, #ffb6c1);
+  color: #000000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#searchLocation:hover,
+#getCurrentLocation:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* dashboard */
+#dashboard {
+  display: flex;
+  margin-top: 2px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.day-container {
+  background: linear-gradient(to right, #ffd700, #ff6347);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-left: 0.5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.today,
+.tomorrow {
+  flex: 1;
+   margin-left: 0; 
+  
+}
+
+.day-container p {
+  margin-left: 0; 
+
+}
+
+.day-container strong {
+  display: block; 
+  margin-bottom: 10px; 
+}
+
+
+
+/* footer */
+#credits{
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  position: fixed; 
+  width: 100%; 
+  bottom: 0; 
+}
+#credits a {
+color: rgb(255, 255, 255); 
+text-decoration: none; 
+}
+
+#credits a:hover {
+text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+  
